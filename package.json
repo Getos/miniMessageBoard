@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
-    "dev":"SET DEBUG=minimessageboard:* & npm --watch start"
+    "start": "node app.js",
+    "deploy": "npm install --production"
   },
   "dependencies": {
     "cookie-parser": "~1.4.6",
