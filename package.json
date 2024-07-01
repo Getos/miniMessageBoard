@@ -3,8 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node app.js",
-    "deploy": "npm install --production"
+    "start": "node ./bin/www"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   },
   "dependencies": {
     "cookie-parser": "~1.4.6",
